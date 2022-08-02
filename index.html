@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculadora Taxi </title>  
+</head>
+<body>
+
+
+  <div class="container bg-white" id="calculadora">
+    <h1 class="text-white bg-accent fs-big">Calculadora de precios</h1>
+    <form class="box bg-ppal" action="" name="form-calculadora">
+
+      <div class="wrapper-input text-accent letter-spacing-1">
+        <label class="bold" for="origen">Origen</label>
+      <select name="origen" id="origen">
+        <option value="-1">Origen</option>
+      </select>
+      </div>
+      <div class="wrapper-input text-accent letter-spacing-1">
+        <label class="bold" for="destino">Destino</label>
+        <select name="destino" id="destino">
+        <option value="-1">Destino</option>
+      </select>
+      </div>
+      
+      <span id="precio" class="fs-big bold text-accent">0 €</span>
+      
+
+    </form>
+
+  </div>
+
+<script src="main.js"></script>
+</body>
+</html>

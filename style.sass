@@ -1,0 +1,108 @@
+/* Colores  */
+$bg-color:hsl(27, 66%, 92%)
+$bg-color-card:hsl(33, 100%, 98%)
+
+$bg-color-accent:hsl(10, 79%, 65%)
+
+$text-white:white
+$text-accent: hsl(25, 47%, 15%)
+
+
+
+.bg-accent
+    background-color: $bg-color-accent
+.bg-ppal
+    background-color: $bg-color
+.bg-white
+    background-color: $bg-color-card
+
+.text-accent
+    color: $text-accent
+
+.text-white
+    color: $text-white
+
+/* tipografia*/    
+
+$font-size-normal: 1.15px
+$font-size-small: 0.85px
+$font-size-big: 2.5rem
+$font-weight-normal:400
+$font-weight-bold:700
+    
+$font-family:'DM Sans'
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p
+    font-size: $font-weight-normal
+    font-weight: $font-weight-normal
+
+input,button,textarea,select
+    font: inherit
+
+.bold
+    font-weight: $font-weight-bold
+
+.letter-spacing-1
+    letter-spacing: 2px
+
+.fs-big
+    font-size: $font-size-big
+
+/* reset*/
+
+
+*
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+    font-family: $font-family
+    border-radius: 4px
+
+/* layout */
+
+body
+    height: 70vh
+    width: 100vw
+    display: flex
+    align-content: center 
+    justify-content: center   
+
+.container
+    display: flex
+    flex-direction: column
+    padding: 24px
+    width: 100%
+    gap: 16px
+    @media (min-width:768px) 
+        width: 70% 
+    @media (min-width:1024px) 
+        width: 40%    
+    
+
+.box
+    width: 100%
+    height: 100%
+    display: flex
+    flex-direction: column
+    gap: 24px
+    padding: 8px
+
+.wrapper-input
+    display: flex
+    flex-direction: column
+    gap: 8px
+select 
+    cursor: pointer
+    
+    &:focus                
+        background-color: $bg-color-accent
+        color: $text-white
+select, h1
+    padding: 8px
+    

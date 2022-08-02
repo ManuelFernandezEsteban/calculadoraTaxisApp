@@ -1,0 +1,45 @@
+
+  [
+    {
+      "origen": "Malaga",
+      "id": 0,
+      "destinos": [
+        {
+          "id": 0,
+          "destino": "Aeropuerto",
+          "precio": 20
+        },
+        {
+          "id": 1,
+          "destino": "Torremolinos",
+          "precio": 25
+        },
+        {
+          "id": 2,
+          "destino": "Benalmadena",
+          "precio": 30
+        }
+      ]
+    },
+    {
+      "origen": "Aeropuerto",
+      "id": 1,
+      "destinos": [
+        {
+          "id": 0,
+          "destino": "Puerto",
+          "precio": 20
+        },
+        {
+          "id": 1,
+          "destino": "Torremolinos",
+          "precio": 15
+        },
+        {
+          "id": 2,
+          "destino": "Benalmadena",
+          "precio": 25
+        }
+      ]
+    }
+  ]
